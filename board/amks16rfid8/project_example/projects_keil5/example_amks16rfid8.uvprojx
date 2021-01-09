@@ -150,7 +150,7 @@
             <RestoreSysVw>1</RestoreSysVw>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
-          <TargetSelection>6</TargetSelection>
+          <TargetSelection>1</TargetSelection>
           <SimDlls>
             <CpuDll></CpuDll>
             <CpuDllArguments></CpuDllArguments>
@@ -164,7 +164,7 @@
             <PeripheralDll></PeripheralDll>
             <PeripheralDllArguments></PeripheralDllArguments>
             <InitializationFile></InitializationFile>
-            <Driver>Segger\JL2CM3.dll</Driver>
+            <Driver>BIN\UL2CM3.DLL</Driver>
           </TargetDlls>
         </DebugOption>
         <Utilities>
@@ -507,11 +507,6 @@
               <FilePath>..\..\..\..\components\drivers\source\digitron\com\am_digitron_com_gpio.c</FilePath>
             </File>
             <File>
-              <FileName>am_zlg72128.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\components\drivers\source\digitron_key\am_zlg72128.c</FilePath>
-            </File>
-            <File>
               <FileName>am_zlg72128_std.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\components\drivers\source\digitron_key\am_zlg72128_std.c</FilePath>
@@ -650,6 +645,16 @@
               <FileName>am_fm175xx_ant.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\components\drivers\source\fm175xx\am_fm175xx_ant.c</FilePath>
+            </File>
+            <File>
+              <FileName>zlg72128.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\components\drivers\source\digitron_key\zlg72128.c</FilePath>
+            </File>
+            <File>
+              <FileName>zlg72128_platform.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\components\drivers\source\digitron_key\zlg72128_platform.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2410,7 +2415,7 @@
             <Oh166RecLen>16</Oh166RecLen>
           </OPTHX>
           <Simulator>
-            <UseSimulator>0</UseSimulator>
+            <UseSimulator>1</UseSimulator>
             <LoadApplicationAtStartup>1</LoadApplicationAtStartup>
             <RunToMain>1</RunToMain>
             <RestoreBreakpoints>1</RestoreBreakpoints>
@@ -2422,9 +2427,9 @@
             <RestoreSysVw>1</RestoreSysVw>
           </Simulator>
           <Target>
-            <UseTarget>1</UseTarget>
+            <UseTarget>0</UseTarget>
             <LoadApplicationAtStartup>1</LoadApplicationAtStartup>
-            <RunToMain>1</RunToMain>
+            <RunToMain>0</RunToMain>
             <RestoreBreakpoints>1</RestoreBreakpoints>
             <RestoreWatchpoints>1</RestoreWatchpoints>
             <RestoreMemoryDisplay>1</RestoreMemoryDisplay>
@@ -2434,7 +2439,7 @@
             <RestoreSysVw>1</RestoreSysVw>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
-          <TargetSelection>6</TargetSelection>
+          <TargetSelection>-1</TargetSelection>
           <SimDlls>
             <CpuDll></CpuDll>
             <CpuDllArguments></CpuDllArguments>
@@ -2448,7 +2453,7 @@
             <PeripheralDll></PeripheralDll>
             <PeripheralDllArguments></PeripheralDllArguments>
             <InitializationFile></InitializationFile>
-            <Driver>Segger\JL2CM3.dll</Driver>
+            <Driver></Driver>
           </TargetDlls>
         </DebugOption>
         <Utilities>
@@ -2791,11 +2796,6 @@
               <FilePath>..\..\..\..\components\drivers\source\digitron\com\am_digitron_com_gpio.c</FilePath>
             </File>
             <File>
-              <FileName>am_zlg72128.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\components\drivers\source\digitron_key\am_zlg72128.c</FilePath>
-            </File>
-            <File>
               <FileName>am_zlg72128_std.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\components\drivers\source\digitron_key\am_zlg72128_std.c</FilePath>
@@ -2934,6 +2934,16 @@
               <FileName>am_fm175xx_ant.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\components\drivers\source\fm175xx\am_fm175xx_ant.c</FilePath>
+            </File>
+            <File>
+              <FileName>zlg72128.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\components\drivers\source\digitron_key\zlg72128.c</FilePath>
+            </File>
+            <File>
+              <FileName>zlg72128_platform.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\components\drivers\source\digitron_key\zlg72128_platform.c</FilePath>
             </File>
           </Files>
         </Group>
